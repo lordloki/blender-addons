@@ -48,4 +48,3 @@ jobs:
           author_name: Jorge Bernal
           author_email: jbernalmartinez@gmail.com
           message: 'UPBGE: Update Logic Nodes addon'
-          add: 'bge_netlogic'
