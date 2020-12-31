@@ -41,3 +41,11 @@ jobs:
          git config --global user.email "jbernalmartinez@gmail.com"
          git config --global user.name "Jorge Bernal"
          git merge --allow-unrelated-histories -X theirs -m "Merge master-BF into master" master-BF  
+         
+      - name: Commit UPBGE Logic Addon
+        uses: EndBug/add-and-commit@v6
+        with:
+          author_name: Jorge Bernal
+          author_email: jbernalmartinez@gmail.com
+          message: 'UPBGE: Update Logic Nodes addon'
+          add: 'bge_netlogic'
