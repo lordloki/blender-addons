@@ -24,6 +24,9 @@ jobs:
         with:
           path: ./blender-addons
           submodules: true
+          
+      - name: Checkout submodules
+        run: git submodule update --init --recursive
 
       - name: Checkout tools blender-addons-BF
         uses: actions/checkout@v2
